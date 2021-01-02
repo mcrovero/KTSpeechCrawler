@@ -38,7 +38,7 @@ if __name__ == "__main__":
 
     ext = "m4a"
 
-    subtitle_file = video_file.replace(f'.{ext}', '.en.vtt')
+    subtitle_file = video_file.replace(f'.{ext}', '.it.vtt')
     info_file = video_file.replace(f'.{ext}', '.info.json')
     overall_info = {"sub_file": subtitle_file, "info": info_file}
     log_file = open("./log.json", "a+")
